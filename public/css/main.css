@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(195, 43, 43);
+}
+
+.grid-container{
+    display: grid;
+    grid-gap: 2em;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.grid-item1{
+    background-color: aqua;
+}
+
+.grid-item2{
+    background-color: aqua;
+}
+
+.grid-item3{
+    background-color: aqua;
+}
